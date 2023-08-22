@@ -2,7 +2,7 @@
 //
 //     final cartResponse = cartResponseFromJson(jsonString);
 
-import 'dart:convert';
+import 'dart:convert'; 
 
 List<CartResponse> cartResponseFromJson(String str) => List<CartResponse>.from(json.decode(str).map((x) => CartResponse.fromJson(x)));
 

@@ -126,6 +126,7 @@ class AuthRepository {
           "App-Language": app_language.$!,
         },
         body: post_body);
+    print("sign up code response ${response.body}");
 
     return loginResponseFromJson(response.body);
   }
@@ -156,7 +157,7 @@ class AuthRepository {
           "Authorization": "Bearer ${access_token.$}",
         },
         body: post_body);
-
+    print("confirm code response ${response.body}");
     return confirmCodeResponseFromJson(response.body);
   }
 

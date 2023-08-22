@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Flutter_Projects\\source_code\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\b398b843a87ddac696d7f66f917ccc01\\transformed\\jetified-facebook-login-16.0.1\\res\\values-el\\values-el.xml",

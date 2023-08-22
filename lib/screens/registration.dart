@@ -10,6 +10,7 @@ import 'package:active_ecommerce_flutter/custom/toast_component.dart';
 import 'package:active_ecommerce_flutter/data_model/login_response.dart';
 import 'package:active_ecommerce_flutter/helpers/auth_helper.dart';
 import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+
 import 'package:active_ecommerce_flutter/my_theme.dart';
 import 'package:active_ecommerce_flutter/other_config.dart';
 import 'package:active_ecommerce_flutter/repositories/auth_repository.dart';
@@ -27,8 +28,13 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:toast/toast.dart';
 import 'package:validators/validators.dart';
-
+import '../helpers/shared_value_helper.dart';
+import '../helpers/shared_value_helper.dart';
+import '../helpers/shared_value_helper.dart';
+import '../helpers/shared_value_helper.dart';
+import '../helpers/shared_value_helper.dart';
 import '../repositories/address_repository.dart';
+
 
 class Registration extends StatefulWidget {
   @override
@@ -171,19 +177,23 @@ class _RegistrationState extends State<Registration> {
           MaterialPageRoute(builder: (context) {
             return Main();
           }), (newRoute) => false);
-      // if ((mail_verification_status.$ && _register_by == "email") ||
-      //     _register_by == "phone") {
-      //   Navigator.push(context, MaterialPageRoute(builder: (context) {
-      //     return Otp(
-      //       verify_by: _register_by,
-      //       user_id: signupResponse.user_id,
-      //     );
-      //   }));
-      // } else {
-      //   Navigator.push(context, MaterialPageRoute(builder: (context) {
-      //     return Login();
-      //   }));
-      // }
+      if ((mail_verification_status.$ && _register_by == "email") ||
+          _register_by == "phone") {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return Otp(
+
+            verify_by:"276732",
+            user_id: 120,
+
+            // verify_by: _register_by,
+            // user_id: signupResponse.user_id,
+          );
+        }));
+      } else {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return Login();
+        }));
+      }
     }
   }
 

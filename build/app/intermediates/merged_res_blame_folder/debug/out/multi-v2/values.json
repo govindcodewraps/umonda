@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Flutter_Projects\\source_code\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\bf69911d92499fff48917fb487ac5b5a\\transformed\\jetified-play-services-basement-18.2.0\\res\\values\\values.xml",
@@ -38,22 +38,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Flutter_Projects\\source_code\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\admin\\StudioProjects\\umonda\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "137,791",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "433,953"
+                        "startLines": "2,6,9,15,19,21,20,18,22,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,184,234,440,679,851,767,585,939,499",
+                        "endColumns": "52,44,50,55,86,86,82,92,82,84",
+                        "endOffsets": "105,224,280,491,761,933,845,673,1017,579"
                     },
                     "to": {
-                        "startLines": "1529,1534",
-                        "startColumns": "4,4",
-                        "startOffsets": "101316,101613",
-                        "endLines": "1533,1536",
-                        "endColumns": "12,12",
-                        "endOffsets": "101608,101773"
+                        "startLines": "366,417,418,422,424,427,428,429,430,431",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "24001,29402,29439,29697,29835,30112,30199,30282,30375,30458",
+                        "endColumns": "52,36,42,55,86,86,82,92,82,84",
+                        "endOffsets": "24049,29434,29477,29748,29917,30194,30277,30370,30453,30538"
                     }
                 },
                 {
@@ -110,6 +108,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,346,455,536,634",
+                        "endColumns": "143,81,64,108,80,97,74",
+                        "endOffsets": "194,276,341,450,531,629,704"
+                    },
+                    "to": {
+                        "startLines": "416,432,433,434,435,436,437",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "29258,30543,30625,30682,30791,30864,30962",
+                        "endColumns": "143,81,56,108,72,97,74",
+                        "endOffsets": "29397,30620,30677,30786,30859,30957,31032"
+                    }
+                },
+                {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\30e4eded36d69ad096f4b6739d9d2aa2\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -146,20 +161,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Flutter_Projects\\source_code\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\flutter_downloader\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,346,455,536,634",
-                        "endColumns": "143,81,64,108,80,97,74",
-                        "endOffsets": "194,276,341,450,531,629,704"
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "133,239",
+                        "endColumns": "105,83",
+                        "endOffsets": "234,318"
                     },
                     "to": {
-                        "startLines": "416,432,433,434,435,436,437",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "29258,30543,30625,30682,30791,30864,30962",
-                        "endColumns": "143,81,56,108,72,97,74",
-                        "endOffsets": "29397,30620,30677,30786,30859,30957,31032"
+                        "startLines": "425,426",
+                        "startColumns": "4,4",
+                        "startOffsets": "29922,30028",
+                        "endColumns": "105,83",
+                        "endOffsets": "30023,30107"
                     }
                 },
                 {
@@ -239,6 +254,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\admin\\StudioProjects\\umonda\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "137,791",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "433,953"
+                    },
+                    "to": {
+                        "startLines": "1529,1534",
+                        "startColumns": "4,4",
+                        "startOffsets": "101316,101613",
+                        "endLines": "1533,1536",
+                        "endColumns": "12,12",
+                        "endOffsets": "101608,101773"
+                    }
+                },
+                {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\4b23a3f28fca402651a4b55c26a64487\\transformed\\media-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,5,6,7,8,10,11,12,13,14",
@@ -306,23 +340,6 @@
                         "startOffsets": "2738,2796,2862,2925,13318,13389,29190,29482,29549,29628",
                         "endColumns": "57,65,62,61,70,71,67,66,78,68",
                         "endOffsets": "2791,2857,2920,2982,13384,13456,29253,29544,29623,29692"
-                    }
-                },
-                {
-                    "source": "D:\\Flutter_Projects\\source_code\\build\\flutter_downloader\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "133,239",
-                        "endColumns": "105,83",
-                        "endOffsets": "234,318"
-                    },
-                    "to": {
-                        "startLines": "425,426",
-                        "startColumns": "4,4",
-                        "startOffsets": "29922,30028",
-                        "endColumns": "105,83",
-                        "endOffsets": "30023,30107"
                     }
                 },
                 {
@@ -433,23 +450,6 @@
                         "endLines": "2181,2188,2199,3488,3493",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "148001,148386,148983,213051,213321"
-                    }
-                },
-                {
-                    "source": "D:\\Flutter_Projects\\source_code\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,6,9,15,19,21,20,18,22,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,184,234,440,679,851,767,585,939,499",
-                        "endColumns": "52,44,50,55,86,86,82,92,82,84",
-                        "endOffsets": "105,224,280,491,761,933,845,673,1017,579"
-                    },
-                    "to": {
-                        "startLines": "366,417,418,422,424,427,428,429,430,431",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "24001,29402,29439,29697,29835,30112,30199,30282,30375,30458",
-                        "endColumns": "52,36,42,55,86,86,82,92,82,84",
-                        "endOffsets": "24049,29434,29477,29748,29917,30194,30277,30370,30453,30538"
                     }
                 }
             ]

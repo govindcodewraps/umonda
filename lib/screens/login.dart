@@ -99,7 +99,7 @@ class _LoginState extends State<Login> {
     print("${"hhhhhhhhh"}"+loginResponse.toString());
     if (loginResponse.result == false) {
       ToastComponent.showDialog(loginResponse.message!,
-          gravity: Toast.center, duration: Toast.lengthLong);
+          gravity: Toast.center, duration: Toast.lengthLong,);
     } else {
       ToastComponent.showDialog(loginResponse.message!,
           gravity: Toast.center, duration: Toast.lengthLong);
@@ -335,6 +335,7 @@ class _LoginState extends State<Login> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
+
         Container(
           width: _screen_width * (3 / 4),
           child: Column(

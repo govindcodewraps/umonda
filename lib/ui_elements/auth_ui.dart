@@ -76,6 +76,16 @@ class AuthScreen{
                 )
               ],
             ),
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: InkWell(
+                  onTap: (){
+                    Navigator.pop(context);
+                  },
+                  child: Icon(Icons.arrow_back_ios_new)),
+            )
+
+
           ],
         ),
       ),
