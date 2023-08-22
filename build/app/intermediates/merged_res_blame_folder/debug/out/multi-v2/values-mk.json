@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Flutter_Projects\\source_code\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\fc93dfbb4214be3cd6262a68d9ebd9c1\\transformed\\jetified-play-services-base-18.1.0\\res\\values-mk\\values.xml",

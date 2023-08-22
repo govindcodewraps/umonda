@@ -1,3 +1,8 @@
+
+
+
+
+
 import 'package:active_ecommerce_flutter/custom/btn.dart';
 import 'package:active_ecommerce_flutter/helpers/system_config.dart';
 import 'package:active_ecommerce_flutter/my_theme.dart';
@@ -16,7 +21,11 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Otp extends StatefulWidget {
   String? title;
-  Otp({Key? key,this.title}) : super(key: key);
+  Otp( {Key? key,this.title, required String verify_by, required user_id,}) : super(key: key);
+
+ // Otp({required Key key, this.verify_by = "email",required this.user_id}) : super(key: key);
+   String? verify_by;
+   int? user_id;
 
   @override
   _OtpState createState() => _OtpState();
@@ -71,9 +80,11 @@ class _OtpState extends State<Otp> {
     } else {
       ToastComponent.showDialog(confirmCodeResponse.message, gravity: Toast.center, duration: Toast.lengthLong);
 
-      // Navigator.push(context, MaterialPageRoute(builder: (context) {
-      //   return Login();
-      // }));
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return Login();
+      }));
+
+
       if(SystemConfig.systemUser!=null){
         SystemConfig.systemUser!.emailVerified=true;
       }
@@ -84,6 +95,8 @@ class _OtpState extends State<Otp> {
 
   @override
   Widget build(BuildContext context) {
+    String? _verify_by = widget.verify_by; //phone or email
+
     final _screen_width = MediaQuery.of(context).size.width;
     return Directionality(
       textDirection: app_language_rtl.$! ? TextDirection.rtl : TextDirection.ltr,
@@ -113,7 +126,7 @@ class _OtpState extends State<Otp> {
                           Image.asset('assets/login_registration_form_logo.png'),
                     ),
                   ),
-                  /*Padding(
+                  Padding(
                     padding: const EdgeInsets.only(bottom: 20.0),
                     child: Text(
                       "${AppLocalizations.of(context)!.verify_your} " +
@@ -141,7 +154,7 @@ class _OtpState extends State<Otp> {
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: MyTheme.dark_grey, fontSize: 14))),
-                  ),*/
+                  ),
                   Container(
                     width: _screen_width * (3 / 4),
                     child: Column(

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Flutter_Projects\\source_code\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\umonda\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\6b776823e480b558053484d3f7a32372\\transformed\\core-1.10.1\\res\\values-fr-rCA\\values-fr-rCA.xml",
